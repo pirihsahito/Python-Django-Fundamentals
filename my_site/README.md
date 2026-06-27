@@ -20,5 +20,15 @@ When the initialization command was executed, Django automatically structured th
 To boot up the local development server for this specific configuration:
 
 1. Open your terminal and ensure you are inside this specific directory:
-   ```bash
-   cd my_site
+```bash
+cd my_site
+
+```
+
+2. Run the local development server tool:
+```bash
+python manage.py runserver
+
+```
+3. Open your browser and navigate to `http://127.0.0.1:8000/`. You should see the default Django landing page confirming the successful installation.
+---
