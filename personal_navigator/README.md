@@ -1,4 +1,4 @@
-# Exercise 01: Personal Navigator Dashboard
+# Personal Navigator Dashboard
 
 This directory contains the completed implementation of **Exercise 1: Personal Navigator**. Building upon modular URL mapping and view behaviors, this milestone demonstrates how to configure an index routing dashboard capable of servicing both local internal applications and external domain anchors.
 
