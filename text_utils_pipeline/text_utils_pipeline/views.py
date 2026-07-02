@@ -6,7 +6,7 @@ def index(request):
     return HttpResponse("Home")
 
 def removepunc(request):
-    return HttpResponse("remove punc")
+    return HttpResponse("Remove Punctuation")
 
 def capfirst(request):
     return HttpResponse("Capitalize First")
