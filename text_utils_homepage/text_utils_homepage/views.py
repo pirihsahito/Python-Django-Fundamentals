@@ -11,15 +11,3 @@ def removepunc(request):
     djtext = request.GET.get('text', 'default')
     print(djtext)
     return HttpResponse("Remove Punctuation")
-
-def capfirst(request):
-    return HttpResponse("Capitalize First")
-
-def newlineremover(request):
-    return HttpResponse("New Line Remover")
-
-def spaceremover(request):
-    return HttpResponse("Space Remover")
-
-def charcount(request):
-    return HttpResponse("Characters Counter")
