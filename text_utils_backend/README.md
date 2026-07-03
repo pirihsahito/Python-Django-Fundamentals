@@ -48,8 +48,7 @@ The controller script serves as the logic center. It utilizes dictionary fallbac
 1. Launch your local web deployment container using the workspace console terminal:
    ```bash
    python manage.py runserver
-
-```
+   ```
 
 2. Open your web browser window and open up the core interface:
 * **Base Environment Destination**: `http://127.0.0.1:8000/`
