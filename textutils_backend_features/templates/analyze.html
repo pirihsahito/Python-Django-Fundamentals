@@ -6,9 +6,12 @@
     <title>Analyzing Your Text</title>
 </head>
 <body>
-    <h1>Your Analyzed Text - {{ purpose }}</h1>
-    <p>
-        <pre>{{ analyzed_text}}</pre>
-    </p>
+       <h2>Your Analyzed Text - {{ purpose }}</h2>
+        <p>
+        <pre><h4>{{ analyzed_text}}</h4></pre>
+        </p>
+        {% if character_count is not None %}
+        <p>Total Characters (Excluding Spaces): {{ character_count }}</p>
+        {% endif %}
 </body>
 </html>
