@@ -43,13 +43,13 @@
     </div>
 
     <div class="container">
-                <h3>Your Analyzed Text - {{ purpose }}</h3>
-                <p>
-                <pre><h6>{{ analyzed_text}}</h6></pre>
-                </p>
-                <p>
-                    Total Characters: {{ character_count }}
-                </p>
+        <h3>Your Analyzed Text - {{ purpose }}</h3>
+        <p>
+        <pre><h6>{{ analyzed_text}}</h6></pre>
+        </p>
+        {% if character_count is not None %}
+        <p>Total Characters (Excluding Spaces): {{ character_count }}</p>
+        {% endif %}
     </div>
 
 
